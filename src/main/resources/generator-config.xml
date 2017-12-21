@@ -9,6 +9,8 @@
     <!-- MySQL-->
     <context id="MySqlTables" targetRuntime="MyBatis3">
         <property name="javaFileEncoding" value="UTF-8"/>
+        <!--分页插件-->
+        <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"/>
         <commentGenerator>
             <property name="suppressAllComments" value="false"/>
             <property name="addRemarkComments" value="true"/>
