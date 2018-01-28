@@ -52,7 +52,7 @@
         <!--需要生成的表-->
         <table tableName="city" domainObjectName="City" mapperName="CityDao"
                enableInsert="true" enableSelectByPrimaryKey="true" enableDeleteByPrimaryKey="true" enableUpdateByPrimaryKey="true"
-               enableSelectByExample="false" enableDeleteByExample="false" enableCountByExample="false" enableUpdateByExample="false">
+               enableSelectByExample="true" enableDeleteByExample="true" enableCountByExample="true" enableUpdateByExample="true">
             <property name="useActualColumnNames" value="true"/>
             <columnRenamingRule searchString="_" replaceString="" />
         </table>
